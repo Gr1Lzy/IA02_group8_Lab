@@ -1,0 +1,107 @@
+.heading {
+  background: #FCF2E5;
+  padding: 28px 20px;
+  text-align: center;
+}
+.heading h1 {
+  font-family: 'Merriweather', serif;
+  position: relative;
+  color: #FCF2E5;
+  background: #90806A;
+  font-size: 1.5em;
+  font-weight: normal;
+  padding: 10px 30px;
+  display: inline-block;
+  margin: 0;
+  line-height: 1;
+  margin-bottom: 5px;
+}
+.heading h1:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 4px;
+  left: 0;
+  bottom: -15px;
+  background: #90806A;
+}
+.heading h1:after {
+  content: "";
+  position: absolute;
+  height: 0;
+  width: 80%;
+  border-top: 10px solid #90806A;
+  border-left: 12px solid transparent;
+  border-right: 12px solid transparent;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -25px;
+}
+@media (max-width: 500px) {
+  .heading h1 {font-size: 1.0em;}
+}
+@media (max-width: 400px) {
+  .heading h1 {
+    font-size: 1.5em;
+    padding: 10px 20px;
+  }
+}
+
+
+.zag{
+  font-family: 'Fredoka One', cursive;
+}
+
+
+
+
+.bg{
+  background-color: #90806A;
+  text-align: center;
+}
+
+p {
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+}
+
+.headBut a {
+   color: #E7E5DD;
+   text-shadow: 1px 1px black;
+   background: url(https://html5book.ru/wp-content/uploads/2015/01/borger-grey.png) repeat-x;
+   border-bottom: 1px solid #bfc1ad;
+   border-left: 1px solid #bfc1ad;
+   border-right: 1px solid #bfc1ad;
+}
+.headBut a:hover {
+   background-position: 300px 0;
+}
+
+.aa {
+   display: inline-block;
+   text-decoration: none;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+   margin: 15px 25px;
+   padding: 15px 20px;
+   font-size: 15px;
+   font-weight: bold;
+   font-family: 'Montserrat', sans-serif;
+   transition: 0.4s ease-in-out;
+}
+
+
+
+.b {
+ padding: 2px;
+ text-decoration: none;
+ color: #cfab7e;
+}
+.b:hover {
+ background: #b0916a;
+ color: yellow;
+}
+
+.bbb {
+    float: right;
+}

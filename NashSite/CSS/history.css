@@ -1,0 +1,9 @@
+.b {
+ padding: 2px;
+ text-decoration: none;
+ color: #cfab7e;
+}
+.b:hover {
+ background: #b0916a;
+ color: yellow;
+}

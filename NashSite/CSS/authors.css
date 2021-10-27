@@ -1,0 +1,58 @@
+.b {
+ padding: 2px;
+ text-decoration: none;
+ color: #cfab7e;
+}
+.b:hover {
+ background: #b0916a;
+ color: yellow;
+}
+
+.list5b {
+    color: black;
+    text-decoration: none;
+    padding:0;
+    list-style: none;
+}    
+.list5b li {
+    cursor: pointer;
+    position: relative;
+    padding: 10px 30px;
+    background: linear-gradient(to left, #a39076 0%, #FFF, #a39076);
+    border: 2px solid #a39076;
+    color: #506a6b;
+    
+    margin-bottom: 5px;
+    text-align:center;
+    background-size: 100% 100%;
+    z-index: 1;
+}
+
+.list5b li:before {
+    content: "";
+    position:absolute;
+    width: 0;
+    height: 100%;
+    top: 50%;
+    left: 50%;
+    background: linear-gradient(to left, #8f8d8d 0%, #FFF, #8f8d8d);
+    opacity: 0;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -ms-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    z-index: -1;
+}
+.list5b li:hover:before {
+    width: 100%;
+    opacity: 1;
+}    
+
+.list5b li > a {
+  colour:black;
+  display: block;
+  text-decoration: none;
+}
