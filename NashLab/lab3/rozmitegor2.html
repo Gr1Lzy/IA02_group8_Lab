@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="eg">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Variant 2 floating</title>
+
+</head>
+
+<body>
+    <style>
+        #header {
+            max-width: 500px;
+            height: 100px;
+            background: orange;
+            outline: 1px solid #000;
+            clear:left;
+        }
+
+        #header_inside_block {
+            float: left;
+            width: 150px;
+            height: 40px;
+            background: white;
+            margin: 10px;
+            outline: 1px solid #000;
+        }
+
+        #right_content_column {
+            width: 500px;
+            height: 400px;
+            background: white;
+            outline: 1px solid #000;
+            word-wrap: break-word;
+            clear:left;
+        }
+
+        #rcc_1 {
+            float: left;
+            width: 110px;
+            height: 400px;
+            background: royalblue;
+            outline: 1px solid #000;
+            word-wrap: break-word;
+        }
+        
+        #rcc_2 {
+            float: left;
+            width: 110px;
+            height: 400px;
+            background: pink;
+            outline: 1px solid #000;
+            margin-left: 20px;
+            word-wrap: break-word;
+        }
+        
+        #rcc_3 {
+            float: left;
+            width: 110px;
+            height: 400px;
+            background: white;
+            outline: 1px solid #000;
+            margin-left: 20px;
+            word-wrap: break-word;
+        }
+        
+        #rcc_4 {
+            float: left;
+            width: 110px;
+            height: 400px;
+            background: pink;
+            outline: 1px solid #000;
+            margin-left: 20px;
+            word-wrap: break-word;
+        }
+
+        #footer {
+            max-width: 500px;
+            height: 100px;
+            background: orange;
+            outline: 1px solid #000;
+            clear:left;
+        }
+    </style>
+
+
+
+        <div id="header">1
+            <div id="header_inside_block" ></div>
+        </div>
+            <div id="right_content_column">
+                <div id="rcc_1">2</div>
+                <div id="rcc_2">3</div>
+                <div id="rcc_3">4</div>
+                <div id="rcc_4">5</div>
+            </div>
+        <div id="footer">6  </div>
+        
+
+
+    </div>
+</body>
+
+</html>

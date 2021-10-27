@@ -1,0 +1,100 @@
+<html>
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+ </head>
+ <body>
+ Селекторы ID
+ <p>Идентификатор определяет уникальное название элемента. Записывается он почти так же, как и класс, только в CSS вместо точки ставится символ решетки #</p>
+  <pre class="hljs" style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(240, 240, 240); color: rgb(68, 68, 68);"><span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name" style="font-weight: 700;">body</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name" style="font-weight: 700;">style</span>&gt;</span><span class="css">
+        <span class="hljs-selector-id" style="color: rgb(136, 0, 0);">#wrapper</span> {
+            <span class="hljs-attribute" style="font-weight: 700;">width</span>: <span class="hljs-number" style="color: rgb(136, 0, 0);">1200px</span>;
+            <span class="hljs-attribute" style="font-weight: 700;">margin</span>: <span class="hljs-number" style="color: rgb(136, 0, 0);">0</span> auto;
+            <span class="hljs-attribute" style="font-weight: 700;">height</span>: <span class="hljs-number" style="color: rgb(136, 0, 0);">100%</span>;
+        }
+
+        <span class="hljs-selector-id" style="color: rgb(136, 0, 0);">#header</span> {
+            <span class="hljs-attribute" style="font-weight: 700;">max-width</span>: <span class="hljs-number" style="color: rgb(136, 0, 0);">500px</span>;
+            <span class="hljs-attribute" style="font-weight: 700;">height</span>: <span class="hljs-number" style="color: rgb(136, 0, 0);">100px</span>;
+            <span class="hljs-attribute" style="font-weight: 700;">background</span>: orange;
+            <span class="hljs-attribute" style="font-weight: 700;">outline</span>: <span class="hljs-number" style="color: rgb(136, 0, 0);">1px</span> solid <span class="hljs-number" style="color: rgb(136, 0, 0);">#000</span>;
+            <span class="hljs-attribute" style="font-weight: 700;">clear</span>:left;
+        }
+
+        <span class="hljs-selector-id" style="color: rgb(136, 0, 0);">#header_inside_block</span> {
+            <span class="hljs-attribute" style="font-weight: 700;">float</span>: left;
+            <span class="hljs-attribute" style="font-weight: 700;">width</span>: <span class="hljs-number" style="color: rgb(136, 0, 0);">150px</span>;
+            <span class="hljs-attribute" style="font-weight: 700;">height</span>: <span class="hljs-number" style="color: rgb(136, 0, 0);">40px</span>;
+            <span class="hljs-attribute" style="font-weight: 700;">background</span>: white;
+            <span class="hljs-attribute" style="font-weight: 700;">margin</span>: <span class="hljs-number" style="color: rgb(136, 0, 0);">20px</span>;
+        }
+
+        <span class="hljs-selector-id" style="color: rgb(136, 0, 0);">#right_content_column</span> {
+            <span class="hljs-attribute" style="font-weight: 700;">width</span>: <span class="hljs-number" style="color: rgb(136, 0, 0);">500px</span>;
+            <span class="hljs-attribute" style="font-weight: 700;">height</span>: <span class="hljs-number" style="color: rgb(136, 0, 0);">400px</span>;
+            <span class="hljs-attribute" style="font-weight: 700;">background</span>: white;
+            <span class="hljs-attribute" style="font-weight: 700;">outline</span>: <span class="hljs-number" style="color: rgb(136, 0, 0);">1px</span> solid <span class="hljs-number" style="color: rgb(136, 0, 0);">#000</span>;
+            <span class="hljs-attribute" style="font-weight: 700;">word-wrap</span>: break-word;
+            <span class="hljs-attribute" style="font-weight: 700;">clear</span>:left;
+        }
+
+        <span class="hljs-selector-id" style="color: rgb(136, 0, 0);">#rcc_1</span> {
+            <span class="hljs-attribute" style="font-weight: 700;">float</span>: left;
+            <span class="hljs-attribute" style="font-weight: 700;">width</span>: <span class="hljs-number" style="color: rgb(136, 0, 0);">110px</span>;
+            <span class="hljs-attribute" style="font-weight: 700;">height</span>: <span class="hljs-number" style="color: rgb(136, 0, 0);">400px</span>;
+            <span class="hljs-attribute" style="font-weight: 700;">background</span>: royalblue;
+            <span class="hljs-attribute" style="font-weight: 700;">outline</span>: <span class="hljs-number" style="color: rgb(136, 0, 0);">1px</span> solid <span class="hljs-number" style="color: rgb(136, 0, 0);">#000</span>;
+            <span class="hljs-attribute" style="font-weight: 700;">word-wrap</span>: break-word;
+        }
+        
+        <span class="hljs-selector-id" style="color: rgb(136, 0, 0);">#rcc_2</span> {
+            <span class="hljs-attribute" style="font-weight: 700;">float</span>: left;
+            <span class="hljs-attribute" style="font-weight: 700;">width</span>: <span class="hljs-number" style="color: rgb(136, 0, 0);">110px</span>;
+            <span class="hljs-attribute" style="font-weight: 700;">height</span>: <span class="hljs-number" style="color: rgb(136, 0, 0);">400px</span>;
+            <span class="hljs-attribute" style="font-weight: 700;">background</span>: pink;
+            <span class="hljs-attribute" style="font-weight: 700;">outline</span>: <span class="hljs-number" style="color: rgb(136, 0, 0);">1px</span> solid <span class="hljs-number" style="color: rgb(136, 0, 0);">#000</span>;
+            <span class="hljs-attribute" style="font-weight: 700;">margin-left</span>: <span class="hljs-number" style="color: rgb(136, 0, 0);">20px</span>;
+            <span class="hljs-attribute" style="font-weight: 700;">word-wrap</span>: break-word;
+        }
+        
+        <span class="hljs-selector-id" style="color: rgb(136, 0, 0);">#rcc_3</span> {
+            <span class="hljs-attribute" style="font-weight: 700;">float</span>: left;
+            <span class="hljs-attribute" style="font-weight: 700;">width</span>: <span class="hljs-number" style="color: rgb(136, 0, 0);">110px</span>;
+            <span class="hljs-attribute" style="font-weight: 700;">height</span>: <span class="hljs-number" style="color: rgb(136, 0, 0);">400px</span>;
+            <span class="hljs-attribute" style="font-weight: 700;">background</span>: white;
+            <span class="hljs-attribute" style="font-weight: 700;">outline</span>: <span class="hljs-number" style="color: rgb(136, 0, 0);">1px</span> solid <span class="hljs-number" style="color: rgb(136, 0, 0);">#000</span>;
+            <span class="hljs-attribute" style="font-weight: 700;">margin-left</span>: <span class="hljs-number" style="color: rgb(136, 0, 0);">20px</span>;
+            <span class="hljs-attribute" style="font-weight: 700;">word-wrap</span>: break-word;
+        }
+        
+        <span class="hljs-selector-id" style="color: rgb(136, 0, 0);">#rcc_4</span> {
+            <span class="hljs-attribute" style="font-weight: 700;">float</span>: left;
+            <span class="hljs-attribute" style="font-weight: 700;">width</span>: <span class="hljs-number" style="color: rgb(136, 0, 0);">110px</span>;
+            <span class="hljs-attribute" style="font-weight: 700;">height</span>: <span class="hljs-number" style="color: rgb(136, 0, 0);">400px</span>;
+            <span class="hljs-attribute" style="font-weight: 700;">background</span>: pink;
+            <span class="hljs-attribute" style="font-weight: 700;">outline</span>: <span class="hljs-number" style="color: rgb(136, 0, 0);">1px</span> solid <span class="hljs-number" style="color: rgb(136, 0, 0);">#000</span>;
+            <span class="hljs-attribute" style="font-weight: 700;">margin-left</span>: <span class="hljs-number" style="color: rgb(136, 0, 0);">20px</span>;
+            <span class="hljs-attribute" style="font-weight: 700;">word-wrap</span>: break-word;
+        }
+
+        <span class="hljs-selector-id" style="color: rgb(136, 0, 0);">#footer</span> {
+            <span class="hljs-attribute" style="font-weight: 700;">max-width</span>: <span class="hljs-number" style="color: rgb(136, 0, 0);">500px</span>;
+            <span class="hljs-attribute" style="font-weight: 700;">height</span>: <span class="hljs-number" style="color: rgb(136, 0, 0);">80px</span>;
+            <span class="hljs-attribute" style="font-weight: 700;">background</span>: orange;
+            <span class="hljs-attribute" style="font-weight: 700;">outline</span>: <span class="hljs-number" style="color: rgb(136, 0, 0);">1px</span> solid <span class="hljs-number" style="color: rgb(136, 0, 0);">#000</span>;
+            <span class="hljs-attribute" style="font-weight: 700;">clear</span>:left;
+        }</span></span></pre>
+ <pre class="hljs" style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(240, 240, 240); color: rgb(68, 68, 68);">    &lt;<span class="hljs-keyword" style="font-weight: 700;">div</span> <span class="hljs-built_in" style="color: rgb(57, 115, 0);">id</span>=<span class="hljs-string" style="color: rgb(136, 0, 0);">"wrapper"</span>&gt;
+
+        &lt;<span class="hljs-keyword" style="font-weight: 700;">div</span> <span class="hljs-built_in" style="color: rgb(57, 115, 0);">id</span>=<span class="hljs-string" style="color: rgb(136, 0, 0);">"header"</span>&gt;
+            &lt;<span class="hljs-keyword" style="font-weight: 700;">div</span> <span class="hljs-built_in" style="color: rgb(57, 115, 0);">id</span>=<span class="hljs-string" style="color: rgb(136, 0, 0);">"header_inside_block"</span>&gt;&lt;/<span class="hljs-keyword" style="font-weight: 700;">div</span>&gt;
+        &lt;/<span class="hljs-keyword" style="font-weight: 700;">div</span>&gt;
+            &lt;<span class="hljs-keyword" style="font-weight: 700;">div</span> <span class="hljs-built_in" style="color: rgb(57, 115, 0);">id</span>=<span class="hljs-string" style="color: rgb(136, 0, 0);">"right_content_column"</span>&gt;
+                &lt;<span class="hljs-keyword" style="font-weight: 700;">div</span> <span class="hljs-built_in" style="color: rgb(57, 115, 0);">id</span>=<span class="hljs-string" style="color: rgb(136, 0, 0);">"rcc_1"</span>&gt;&lt;/<span class="hljs-keyword" style="font-weight: 700;">div</span>&gt;
+                &lt;<span class="hljs-keyword" style="font-weight: 700;">div</span> <span class="hljs-built_in" style="color: rgb(57, 115, 0);">id</span>=<span class="hljs-string" style="color: rgb(136, 0, 0);">"rcc_2"</span>&gt;&lt;/<span class="hljs-keyword" style="font-weight: 700;">div</span>&gt;
+                &lt;<span class="hljs-keyword" style="font-weight: 700;">div</span> <span class="hljs-built_in" style="color: rgb(57, 115, 0);">id</span>=<span class="hljs-string" style="color: rgb(136, 0, 0);">"rcc_3"</span>&gt;&lt;/<span class="hljs-keyword" style="font-weight: 700;">div</span>&gt;
+                &lt;<span class="hljs-keyword" style="font-weight: 700;">div</span> <span class="hljs-built_in" style="color: rgb(57, 115, 0);">id</span>=<span class="hljs-string" style="color: rgb(136, 0, 0);">"rcc_4"</span>&gt;&lt;/<span class="hljs-keyword" style="font-weight: 700;">div</span>&gt;
+            &lt;/<span class="hljs-keyword" style="font-weight: 700;">div</span>&gt;
+        &lt;<span class="hljs-keyword" style="font-weight: 700;">div</span> <span class="hljs-built_in" style="color: rgb(57, 115, 0);">id</span>=<span class="hljs-string" style="color: rgb(136, 0, 0);">"footer"</span>&gt;  &lt;/<span class="hljs-keyword" style="font-weight: 700;">div</span>&gt;</pre>
+ </body>
+</html>
